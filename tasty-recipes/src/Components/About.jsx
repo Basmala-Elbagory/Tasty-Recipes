@@ -3,9 +3,9 @@ import about from "../images/about.jpg";
 function About()
 {
     return(
-        <div className="Container">
+        <div className="Container" id="About">
              <h2>About us 🥰</h2>
-            <div className="About" id="About">
+            <div className="About" >
            
             <div className="image2">
              <img src={about}></img>
